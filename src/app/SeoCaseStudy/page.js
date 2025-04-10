@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function SeoStorePage() {
   return (
@@ -42,9 +43,9 @@ export default function SeoStorePage() {
           whileTap={{ scale: 0.9 }}
           className="mt-6 bg-blue-600 text-white py-2 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition"
         >
-          <a href="/SeoCaseStudies">
+          <Link href="/SeoCaseStudies">
           مشاهده نمونه کارها
-          </a>
+          </Link>
         </motion.button>
       </div>
     </motion.div>

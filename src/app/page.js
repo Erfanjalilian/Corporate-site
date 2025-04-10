@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function HomePage() {
   return (
@@ -106,14 +107,14 @@ function HomePage() {
             برای اطلاعات بیشتر با ما در ارتباط باشید.
           </motion.p>
           <motion.a
-            href="mailto:info@company.com"
-            initial={{ scale: 0.9 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 1, duration: 0.5 }}
-            className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-bold rounded-lg shadow-lg hover:bg-blue-700 transition-all"
-          >
-            ارسال ایمیل
-          </motion.a>
+  href="mailto:info@company.com"
+  initial={{ scale: 0.9 }}
+  animate={{ scale: 1 }}
+  transition={{ delay: 1, duration: 0.5 }}
+  className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-bold rounded-lg shadow-lg hover:bg-blue-700 transition-all"
+>
+  ارسال ایمیل
+</motion.a>
         </div>
       </section>
     </div>

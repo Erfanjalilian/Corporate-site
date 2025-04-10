@@ -74,17 +74,17 @@ const About = () => {
             className="grid md:grid-cols-3 gap-12"
           >
             <div className="text-center">
-              <img src="https://rcrdc.iums.ac.ir/uploads/203/2023/Jan/23/anvari.jpg" alt="Team Member 1" className="w-40 h-40 mx-auto mb-4 rounded-full" />
+              <Image src="https://rcrdc.iums.ac.ir/uploads/203/2023/Jan/23/anvari.jpg" alt="Team Member 1" className="w-40 h-40 mx-auto mb-4 rounded-full" />
               <h4 className="text-xl font-semibold text-gray-800">علی احمدی</h4>
               <p className="text-gray-600">مدیر عامل</p>
             </div>
             <div className="text-center">
-              <img src="https://rcrdc.iums.ac.ir/uploads/203/2023/Jan/23/goodarzi.jpg" alt="Team Member 2" className="w-40 h-40 mx-auto mb-4 rounded-full" />
+              <Image src="https://rcrdc.iums.ac.ir/uploads/203/2023/Jan/23/goodarzi.jpg" alt="Team Member 2" className="w-40 h-40 mx-auto mb-4 rounded-full" />
               <h4 className="text-xl font-semibold text-gray-800">مریم رضا</h4>
               <p className="text-gray-600">مدیر فنی</p>
             </div>
             <div className="text-center">
-              <img src="https://rcrdc.iums.ac.ir/uploads/203/2023/Jan/23/fallahpoor.jpg" alt="Team Member 3" className="w-40 h-40 mx-auto mb-4 rounded-full" />
+              <Image src="https://rcrdc.iums.ac.ir/uploads/203/2023/Jan/23/fallahpoor.jpg" alt="Team Member 3" className="w-40 h-40 mx-auto mb-4 rounded-full" />
               <h4 className="text-xl font-semibold text-gray-800">سینا کریمی</h4>
               <p className="text-gray-600">مدیر بازاریابی</p>
             </div>
@@ -100,7 +100,7 @@ const About = () => {
         >
           <h3 className="text-3xl font-semibold text-gray-900 mb-4">تماس با ما</h3>
           <p className="text-lg text-gray-600 mb-4">برای ارتباط با ما، لطفاً از طریق فرم زیر اقدام کنید.</p>
-          <a href="#contact" className="text-white bg-blue-600 hover:bg-blue-700 py-2 px-6 rounded-lg transition-all">تماس با ما</a>
+          <Link href="#contact" className="text-white bg-blue-600 hover:bg-blue-700 py-2 px-6 rounded-lg transition-all">تماس با ما</Link>
         </motion.div>
       </div>
     </section>

@@ -1,5 +1,7 @@
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"; // آیکون‌های اضافی
 
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-8">
@@ -15,10 +17,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">لینک‌های سریع</h3>
             <ul className="space-y-2">
-              <li><a href="#about" className="text-gray-400 hover:text-white transition-all">درباره ما</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-all">خدمات</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-white transition-all">تماس با ما</a></li>
-              <li><a href="#faq" className="text-gray-400 hover:text-white transition-all">سوالات متداول</a></li>
+              <li><Link href="#about" className="text-gray-400 hover:text-white transition-all">درباره ما</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-white transition-all">خدمات</Link></li>
+              <li><Link href="#contact" className="text-gray-400 hover:text-white transition-all">تماس با ما</Link></li>
+              <li><Link href="#faq" className="text-gray-400 hover:text-white transition-all">سوالات متداول</Link></li>
             </ul>
           </div>
           
@@ -36,18 +38,18 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">دنبال کنید ما را</h3>
             <div className="flex justify-center space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white transition-all">
+              <Link href="#" className="text-gray-400 hover:text-white transition-all">
                 <Facebook size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-all">
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-white transition-all">
                 <Twitter size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-all">
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-white transition-all">
                 <Instagram size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-all">
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-white transition-all">
                 <Linkedin size={24} />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -70,12 +72,12 @@ const Footer = () => {
 
         {/* لینک لاگین مدیر */}
         <div className="text-center mt-8">
-          <a 
+          <Link 
             href="/admin-login" 
             className="text-gray-400 hover:text-white transition-all text-lg font-semibold"
           >
             ورود به پنل مدیریتی
-          </a>
+          </Link>
         </div>
 
         {/* کپی رایت */}

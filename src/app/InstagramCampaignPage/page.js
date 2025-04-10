@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function InstagramCampaignPage() {
   return (
@@ -42,9 +43,9 @@ export default function InstagramCampaignPage() {
           whileTap={{ scale: 0.9 }}
           className="mt-6 bg-pink-600 text-white py-2 px-6 rounded-lg shadow-lg hover:bg-pink-700 transition"
         >
-          <a href="/InstagramCampaignCaseStudies">
+          <Link href="/InstagramCampaignCaseStudies">
           مشاهده تصاویر کمپین
-          </a>
+          </Link>
         </motion.button>
       </div>
     </motion.div>

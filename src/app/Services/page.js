@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const Services = () => {
   return (
@@ -35,7 +36,7 @@ const Services = () => {
             <p className="text-gray-700 mb-6 text-right">
               ما خدمات مشاوره‌ای حرفه‌ای در زمینه استراتژی کسب و کار، بهبود عملکرد و رشد بلندمدت به شما ارائه می‌دهیم.
             </p>
-            <a href="/Services/Consulting" className="text-teal-600 hover:text-teal-700">جزئیات بیشتر</a>
+            <Link href="/Services/Consulting" className="text-teal-600 hover:text-teal-700">جزئیات بیشتر</Link>
           </motion.div>
 
           {/* سرویس دوم */}
@@ -49,7 +50,7 @@ const Services = () => {
             <p className="text-gray-700 mb-6 text-right">
               تیم ما بهترین وب‌سایت‌های کاربردی و جذاب را بر اساس نیازهای خاص شما طراحی می‌کند.
             </p>
-            <a href="/Services/Web-design" className="text-teal-600 hover:text-teal-700">جزئیات بیشتر</a>
+            <Link href="/Services/Web-design" className="text-teal-600 hover:text-teal-700">جزئیات بیشتر</Link>
           </motion.div>
 
           {/* سرویس سوم */}
@@ -63,7 +64,7 @@ const Services = () => {
             <p className="text-gray-700 mb-6 text-right">
               ما شما را در راه‌اندازی کمپین‌های تبلیغاتی آنلاین موفق کمک می‌کنیم تا برند شما دیده شود.
             </p>
-            <a href="/Services/DigitalMarketingPage" className="text-teal-600 hover:text-teal-700">جزئیات بیشتر</a>
+            <Link href="/Services/DigitalMarketingPage" className="text-teal-600 hover:text-teal-700">جزئیات بیشتر</Link>
           </motion.div>
         </motion.div>
 
@@ -76,7 +77,7 @@ const Services = () => {
         >
           <h3 className="text-3xl font-semibold text-gray-900 mb-4">تماس با ما</h3>
           <p className="text-lg text-gray-600 mb-4">اگر به خدمات ما علاقه دارید یا سوالی دارید، خوشحال می‌شویم که با شما در ارتباط باشیم.</p>
-          <a href="#contact" className="text-white bg-teal-600 hover:bg-teal-700 py-2 px-6 rounded-lg transition-all">تماس با ما</a>
+          <Link href="#contact" className="text-white bg-teal-600 hover:bg-teal-700 py-2 px-6 rounded-lg transition-all">تماس با ما</Link>
         </motion.div>
       </div>
     </section>

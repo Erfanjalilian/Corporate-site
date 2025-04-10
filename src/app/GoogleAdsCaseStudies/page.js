@@ -41,7 +41,7 @@ export default function GoogleAdsCaseStudies() {
               whileHover={{ scale: 1.05 }}
               className="bg-gray-50 p-4 rounded-lg shadow-md"
             >
-              <img
+              <Image
                 src={caseItem.image}
                 alt={caseItem.title}
                 className="w-full h-40 object-cover rounded-lg mb-4"

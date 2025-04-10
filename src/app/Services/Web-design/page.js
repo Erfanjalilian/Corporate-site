@@ -21,7 +21,7 @@ const WebDesignPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // ارسال داده‌های فرم به سرور
-    console.log(formData);
+    
   };
 
   return (
@@ -139,7 +139,7 @@ const WebDesignPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* نمونه کار ۱ */}
             <div className="group relative overflow-hidden rounded-xl shadow-md">
-              <img 
+              <Image 
                 src="https://arnikaweb.com/wp-content/uploads/2016/07/gilas_rayaneh_arnikaweb.jpg" 
                 alt="نمونه کار طراحی وبسایت شرکتی" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
@@ -159,7 +159,7 @@ const WebDesignPage = () => {
 
             {/* نمونه کار ۲ */}
             <div className="group relative overflow-hidden rounded-xl shadow-md">
-              <img 
+              <Image 
                 src="https://dl.dastyarwp.com/html-templates/shop/dastyarwp_shop.jpg" 
                 alt="نمونه کار فروشگاه اینترنتی" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
@@ -179,7 +179,7 @@ const WebDesignPage = () => {
 
             {/* نمونه کار ۳ */}
             <div className="group relative overflow-hidden rounded-xl shadow-md">
-              <img 
+              <Image 
                 src="https://www.karlancer.com/blog/wp-content/uploads/2020/07/taskulu.png" 
                 alt="نمونه کار وب اپلیکیشن" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"

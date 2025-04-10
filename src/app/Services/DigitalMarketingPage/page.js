@@ -24,7 +24,7 @@ const DigitalMarketingPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // ارسال داده‌های فرم به سرور
-    console.log(formData);
+    
   };
 
   return (
@@ -151,9 +151,9 @@ const DigitalMarketingPage = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">پروژه سئو فروشگاه لوازم خانگی</h3>
                 <p className="text-gray-600 mb-4">افزایش 70 درصدی ترافیک ارگانیک در 3 ماه</p>
-                <a href="/SeoCaseStudy" className="text-blue-600 hover:underline">
+                <Link href="/SeoCaseStudy" className="text-blue-600 hover:underline">
                   مطالعه موردی →
-                </a>
+                </Link>
               </div>
             </div>
 

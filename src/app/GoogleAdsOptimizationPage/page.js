@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function GoogleAdsOptimizationPage() {
   return (
@@ -42,9 +43,9 @@ export default function GoogleAdsOptimizationPage() {
           whileTap={{ scale: 0.9 }}
           className="mt-6 bg-green-600 text-white py-2 px-6 rounded-lg shadow-lg hover:bg-green-700 transition"
         >
-          <a href="/GoogleAdsCaseStudies">
+          <Link href="/GoogleAdsCaseStudies">
           مشاهده جزئیات کمپین
-          </a>
+          </Link>
         </motion.button>
       </div>
     </motion.div>
