@@ -7,17 +7,17 @@ export default function SeoCaseStudies() {
     {
       title: "افزایش رتبه فروشگاه X در گوگل",
       description: "بهبود رتبه کلمات کلیدی اصلی و افزایش بازدید ارگانیک.",
-      image: "/images/seo-case1.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf8yOdK9hEKcuQriP2ye3QsBZxDK6vMexOMQ&s",
     },
     {
       title: "کاهش نرخ پرش و بهینه‌سازی سرعت",
       description: "بهینه‌سازی فنی برای بهبود تجربه کاربری و افزایش ماندگاری کاربران.",
-      image: "/images/seo-case2.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzIpgVFj2qfy06C09OjLQHykra6oS-kVSZqg&s",
     },
     {
       title: "افزایش فروش از طریق محتوای سئو شده",
       description: "استراتژی تولید محتوا و بهینه‌سازی توضیحات محصول برای جذب مشتریان هدفمند.",
-      image: "/images/seo-case3.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4u5Jd5tJJPjd7-HZHFQskYpfQ4xm3ptcJIw&s",
     },
   ];
 
@@ -28,7 +28,8 @@ export default function SeoCaseStudies() {
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-gray-100 p-8"
     >
-      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-8 text-center">
+      
+      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-8 text-center mt-16">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">نمونه کارهای سئو</h1>
         <p className="text-gray-600 text-lg mb-8">
           در این بخش برخی از نمونه‌کارهای موفق سئو برای فروشگاه‌های اینترنتی را مشاهده می‌کنید.

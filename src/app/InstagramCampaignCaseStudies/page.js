@@ -7,17 +7,17 @@ export default function InstagramCampaignCaseStudies() {
     {
       title: "افزایش تعامل کاربران با مسابقه اینستاگرامی",
       description: "اجرای یک کمپین مسابقه‌ای که نرخ تعامل را ۷۵٪ افزایش داد.",
-      image: "/images/instagram-case1.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqr49xQDgWHr0YAEMmoB-15S-zQafTNuClnQ&s",
     },
     {
       title: "همکاری با اینفلوئنسرهای مد و زیبایی",
       description: "همکاری با ۱۰ اینفلوئنسر مطرح که فروش را ۵۰٪ افزایش داد.",
-      image: "/images/instagram-case2.jpg",
+      image: "https://img.baba-blog.com/2024/05/two-women-posing-for-social-media.jpeg?x-oss-process=style%2Ffull",
     },
     {
       title: "استفاده از تبلیغات هدفمند استوری",
       description: "استفاده از تبلیغات استوری برای جذب ۲۰هزار فالوور جدید.",
-      image: "/images/instagram-case3.jpg",
+      image: "https://www.portal.ir/uploads/posts/6f25aa.jpg",
     },
   ];
 
@@ -28,7 +28,7 @@ export default function InstagramCampaignCaseStudies() {
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-gradient-to-r from-pink-500 to-purple-500 p-8"
     >
-      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-8 text-center">
+      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-8 text-center mt-16">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">مطالعات موردی کمپین اینستاگرام</h1>
         <p className="text-gray-600 text-lg mb-8">
           این کمپین‌های موفق اینستاگرامی تأثیر زیادی در رشد برند مدو داشته‌اند.

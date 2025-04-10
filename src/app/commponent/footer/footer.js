@@ -80,7 +80,7 @@ const Footer = () => {
 
         {/* کپی رایت */}
         <div className="text-center mt-8">
-          <p className="text-gray-400">تمامی حقوق محفوظ است © {new Date().getFullYear()}</p>
+          <p className="text-gray-400"> طراحی شده توسط عرفان جلیلیان © {new Date().getFullYear()}</p>
         </div>
       </div>
     </footer>

@@ -10,7 +10,7 @@ export default function SeoStorePage() {
       transition={{ duration: 0.5 }}
       className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-green-500 p-8"
     >
-      <div className="bg-white shadow-lg rounded-2xl p-8 max-w-4xl text-center space-y-6">
+      <div className="bg-white shadow-lg rounded-2xl p-8 max-w-4xl text-center space-y-6 mt-16">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           پروژه سئو فروشگاه لوازم خانگی
         </h1>
