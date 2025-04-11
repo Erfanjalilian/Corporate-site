@@ -2,6 +2,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"; // آیک
 
 import Link from "next/link";
 
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-8">

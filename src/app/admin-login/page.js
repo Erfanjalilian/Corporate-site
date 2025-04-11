@@ -1,4 +1,7 @@
+
+
 const AdminLogin = () => {
+
     return (
       <div className="flex justify-center items-center min-h-screen bg-gray-800">
         <div className="bg-white p-6 rounded-md shadow-md w-full max-w-sm">

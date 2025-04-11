@@ -1,4 +1,7 @@
 // app/services/consulting/page.js
+
+
+
 const ConsultingDetails = () => {
     return (
       <div className="container mx-auto py-12 px-4">
